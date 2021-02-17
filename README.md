@@ -1,2 +1,2 @@
 # Een-beautybox-
-makeitup.nl
+http://www.makeitup.nl/
