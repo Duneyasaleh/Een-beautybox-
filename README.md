@@ -1,6 +1,8 @@
 # Een-beautybox-
 http://www.makeitup.nl/
 
+https://trello.com/b/eXeFwWIX/k-id-examen
+
  Het is een examen voor het keuzedeel Interaction Desig.
  In dit examen laat ik zien dat ik aan de eisen voldoet die horen bij het keuzedeel Interaction Design. Deze eisen zijn beschreven in kerntaken, werkprocessen en/of kennis en vaardigheden.
  
