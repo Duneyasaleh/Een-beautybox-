@@ -19,6 +19,7 @@ https://trello.com/b/eXeFwWIX/k-id-examen
  ### 8- prototype inHMTL/CSS/JS.
  ### 9- Presentatie gerealiseerd prototype.
 
-## Dinsdag 18 mei 2021 Deadline van deze examen.
+## Dinsdag 18 mei 2021 de eerste Deadline van deze examen.
+## Donderdag 28 mei 2021 de end Deadline van deze examen.
  
  
