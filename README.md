@@ -11,7 +11,7 @@ https://trello.com/b/eXeFwWIX/k-id-examen
  
  ### 1- Onderzoek product.
  ### 2- Persona.
- ### 3- Userstories.
+ ### 3- Userstories https://trello.com/b/eXeFwWIX/k-id-examen.
  ### 4- Moodboarden styleboard.
  ### 5- Wireframes.
  ### 6- Visueel Ontwerp (XD).
