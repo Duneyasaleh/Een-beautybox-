@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=PT+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    font-family: 'PT Sans', sans-serif;
+}
+.hoofd_imag{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.navbar{
+    font-family: 'Anton', sans-serif;;
+    display: grid;
+    grid-template-columns: .5fr .5fr 1fr .5fr .5fr;
+    grid-gap: 1em;
+    padding: 2em 4em ;
+    box-shadow: 0px 1px 1px 1px  rgba(0,0,0,0.25); 
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 4px #D29A6B;
+    font-size: 20px;
+}
+.navbar_logo{
+    width: 20%;
+}
+.about_us{
+    display: grid;
+    grid-template-columns: .7fr 1fr .1fr;
+    grid-gap: 1em;
+    padding: 4em;
+    background-color: #D29A6B;
+}
+.about_imag{
+    width: 100%;
+}
+.about_text{
+  padding: 2em;
+  display: grid;
+  grid-template-rows: .4fr 1fr ;
+}
+.uitleg_box{
+    display: grid;
+    grid-template-rows: .15fr 1fr;
+    padding: 4em;
+    
+}
+.uitleg_box h2{
+    border-left:20px solid #D29A6B;
+    padding-left: .5em;
+}
+.uitleg_box_img_text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 2em;
+    
+}
+.uitleg_box_img_text img{
+    width: 70%;
+    border: 1px solid gray;
+    box-shadow: 0px 1px 1px 1px  rgba(0,0,0,0.25);
+}
+#box_onderdeeling{
+    margin-left: 6em;
+}
+
+.verzenden h2{
+    border-left:20px solid #D29A6B;
+    padding-left: .5em;
+}
+.verzenden{
+    display: grid;
+    grid-template-rows: .15fr 1fr;
+    padding: 5em 5em 5em 5em;
+
+    
+}
+.verzenden_item{
+    text-align: center;
+    padding: 1.5em;
+}
+.verzenden_item i{
+ font-size: 5em;
+ color: #D29A6B;
+ text-shadow: 2px 2px 4px black;
+ padding: .4em;
+}
+.tip_videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    padding: 4em 4em 4em 4em;
+}
+iframe{
+    box-shadow: 0px 1px 1px 1px  rgba(0,0,0,0.25);   
+}
+footer{
+    text-align: center;
+    padding: 5em;
+    background-color: #D29A6B;
+}
+footer h4{
+    padding-bottom: 2em;
+
+}
+.footer_logo{
+    width: 25%;
+    padding-bottom: 2em;
+}
+.footer_media a{
+    color: black;
+    font-size: 2em;
+    padding: 1em;
+    text-shadow: 1px 1px 2px white;
+}
+.footer_media a:hover{
+   color: white;
+}
+
+ /* shop pagina */
+ .populair_product{
+     padding: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+ }
+ .populair_product img{
+    width: 100%; 
+    box-shadow: 0px 1px 1px 1px  rgba(0,0,0,0.25);        
+}
+.populair_product_text{
+    background-color: #D29A6B;
+    margin-top: 30em;
+    margin-left: -20em;
+    padding: 5em;
+    box-shadow: 0px 1px 1px 1px  rgba(0,0,0,0.25); 
+
+}
+.shopping{
+    padding: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+}
+.pagination{
+  margin-left: 40em;
+}
+.pagination a{
+    color: black;
+}
+.card-footer a{
+    background-color: #F1DAC8;
+    border: none;
+    color: black;
+}
+.card-footer a:hover{
+    background-color: #D29A6B;
+    border: none;
+    color: black;
+}
+.card-footer{
+    text-align: center;
+}
+
+/* bestel.html */
+
+.bestel{
+    display: grid;
+    grid-template-columns: .7fr 1fr .1fr;
+    grid-gap: 1em;
+    padding: 4em;
+
+}
