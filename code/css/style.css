@@ -12,24 +12,65 @@ section{
     justify-content: center;
     width: 100%;
 }
-.navbar{
+.sub_nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    background-color: #D29A6B;
+}
+.login{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 350px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 16px 18px;
+    z-index: 1;
+    text-align: left;
+  }
+  .login:hover .dropdown-content {
+    display: block;
+  }
+.sub_gebruikers a{
+padding-right: 2em;
+text-decoration: none;
+color: black;
+}
+
+.sub_gebruikers a:hover{
+    color: gray;
+    }
+.navbar2{
     font-family: 'Anton', sans-serif;;
     display: grid;
-    grid-template-columns: .5fr .5fr 1fr .5fr .5fr;
+    grid-template-columns: .6fr .6fr 1fr .6fr .4fr;
     grid-gap: 1em;
     padding: 2em 4em ;
     box-shadow: 0px 1px 1px 1px  rgba(0,0,0,0.25); 
     overflow: hidden;
+    padding-right: 1.3em;
 }
-.navbar a{
+.navbar2 a{
     text-decoration: none;
     color: black;
     text-shadow: 2px 2px 4px #D29A6B;
-    font-size: 20px;
+    font-size: 25px;
+    padding-top: 1em ;
+}
+.navbar2 a:hover{
+    text-decoration: none;
+    color: #D29A6B;
+    text-shadow: 4px 4px 6px black;
+    font-size: 25px;
 }
 .navbar_logo{
-    width: 20%;
+    width: 60%;
 }
+
 .about_us{
     display: grid;
     grid-template-columns: .7fr 1fr .1fr;
@@ -106,10 +147,7 @@ footer{
     padding: 5em;
     background-color: #D29A6B;
 }
-footer h4{
-    padding-bottom: 2em;
 
-}
 .footer_logo{
     width: 25%;
     padding-bottom: 2em;
@@ -176,4 +214,127 @@ footer h4{
     grid-gap: 1em;
     padding: 4em;
 
+}
+
+.add_item_toCart{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.add_item_toCart a{
+ width: 30em;
+ padding: 1em;
+}
+.btn-info:hover{
+    background-color: #dabda5;
+   }
+   
+/* winkelwagen.html */
+
+.continer_winkelwagen{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    grid-gap: 1em;
+    padding: 2em;
+}
+.privacy_page{
+    padding: 4em;
+}
+
+/* contact.html */
+
+.contact_page{
+   padding: 2em;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: .5em;
+
+}
+.contact_page a{
+    color: #D29A6B;
+}
+@media (max-width: 768px)  {
+    .navbar2{
+        padding: 1em;
+        padding-top: 0 ;
+    }
+    .navbar_logo{
+        width: 5.5em;
+        margin-top: 2em;
+    }
+    .sub_nav{
+        display: grid;
+        grid-template-columns: .7fr 1fr;
+        text-align: center;
+        background-color: #D29A6B;
+    }
+    .about_us {
+       display: block;
+        padding: 1em;
+        background-color: #D29A6B;
+    }
+
+    .uitleg_box{
+        display: block;
+        padding: 3em;
+    }
+    .uitleg_box_img_text{
+        display: block;
+        padding: 0;
+    }
+    .verzenden{
+        display: block;
+        padding: 2em;
+    }
+    .tip_videos{
+        display: block;
+        padding: 2em;
+        margin-left: 0;
+    }
+    iframe{
+        right: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .populair_product{
+        display: block;
+        padding: 2em;
+    }
+    .populair_product_text{
+        margin-top: .5em;
+        margin-left: .1em;
+        padding: 1em;
+    }
+    .shopping{
+        display: block;
+        padding: 2em;
+    }
+    .bestel{
+        display: block;
+        padding: 2em;
+    }
+    .about_text{
+        display: block;
+       
+    }.contact_page{
+        padding: 2em;
+        display: block;
+     
+     }
+    .footer_media a {
+        color: black;
+        font-size: 1em;
+        text-shadow: 1px 1px 2px white;
+    }
+    .footer_logo {
+        width: 65%;
+        padding-bottom: 2em;
+    }
+    footer{
+        padding-bottom: 5em;
+        padding-top: 1em;
+    }
+
+  
 }
